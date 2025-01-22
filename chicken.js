@@ -8,6 +8,6 @@ class Chicken {
     };
 
     draw(ctx) {
-        ctx.drawImage(ASSET_MANAGER.getAsset("./chick_24x24.png"), 0, 0);
+        ctx.drawImage(ASSET_MANAGER.getAsset("./chick_24x24.png"),0,0);
     };
 }
