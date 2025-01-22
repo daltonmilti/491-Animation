@@ -1,6 +1,6 @@
 // This game shell was happily modified from Googler Seth Ladd's "Bad Aliens" game and his Google IO talk in 2011
 
-class GameEngine {
+export default class GameEngine {
     constructor(options) {
         // What you will use to draw
         // Documentation: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
@@ -113,7 +113,6 @@ class GameEngine {
         this.update();
         this.draw();
     };
-
 };
 
 // KV Le was here :)
