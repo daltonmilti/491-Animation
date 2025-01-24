@@ -22,12 +22,13 @@
         /* Ensure the canvas takes the full viewport width and starts at 0 */
         canvas {
             display: block;
-            background: white;
             border: 1px solid black;
+            background: url("./background.jpg") no-repeat center center; /* Set background image */
+            background-size: cover; /* Make sure the image covers the entire canvas */
         }
     </style>
 </head>
 <body>
-    <canvas id="gameWorld" width="1438" height="810" style="background: white; border: 1px solid black" tabindex="0" autofocus></canvas>
+    <canvas id="gameWorld" width="1438" height="810" tabindex="0" autofocus></canvas>
 </body>
 </html>
