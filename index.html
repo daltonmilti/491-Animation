@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Game Project Title Goes Here</title>
+    <title>Chicken Day Off</title>
   
     <script type="text/javascript" src="./assetmanager.js"></script>
     <script type="text/javascript" src="./timer.js"></script>
@@ -12,8 +12,22 @@
     <script type="text/javascript" src="./animator.js"></script>
     <script type="text/javascript" src="./chicken.js"></script>
     <script type="text/javascript" src="./main.js"></script>
+    <style>
+        /* Remove all margin and padding from the body and html */
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrollbars */
+        }
+        /* Ensure the canvas takes the full viewport width and starts at 0 */
+        canvas {
+            display: block;
+            background: white;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-    <canvas id="gameWorld" width="1024" height="768" style="background: white; border: 1px solid black" tabindex="0" autofocus></canvas>
+    <canvas id="gameWorld" width="1438" height="810" style="background: white; border: 1px solid black" tabindex="0" autofocus></canvas>
 </body>
 </html>
